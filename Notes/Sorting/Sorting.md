@@ -9,7 +9,6 @@
 - Time complexity: O(n^2)
 - Space complexity: O(1) 
 - Adaptive: O(n) time when nearly sorted
-
 --------------------
 ## insertion sort
 - inplace sorting algorithm
@@ -40,4 +39,17 @@
 ### Analysis
 - Time complexity: O(nlogn)
 - Space complexity: O(n) [o(n) for temp array+ o(logn) for recursion stack]
+- Adaptive: O(nlogn) time when nearly sorted
+
+
+--------------------
+
+## quick sort
+- inplace sorting algorithm
+- unstable sorting algorithm    
+- comparison based algorithm
+
+### Analysis
+- Time complexity: O(nlogn)
+- Space complexity: O(logn) [o(logn) for recursion stack]
 - Adaptive: O(nlogn) time when nearly sorted
